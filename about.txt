@@ -1,0 +1,5 @@
+HyperHue Studios
+This plugin adds a company on Mars that allows the player to change between any of the recently extended list of 29 (technically) colors schemes.
+The gameplay for this is eplained in the missions, and to start the ball rolling, visit any human planet
+Coded by ChemtrailOperator
+Inspired by Reed Cera's Prism Plugin
