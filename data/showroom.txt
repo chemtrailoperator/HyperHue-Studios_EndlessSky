@@ -1,0 +1,199 @@
+#Along with the painting jobs on Mars, there is also a showroom of the Colors so you don't have to go through them all manually.
+#The license and category adjustments separate the displays from everything else and make sure you can't just buy the displays.
+
+license "Painter"
+	
+category "ship"
+	"Swizzle Displays"
+
+ship "Colors Display"
+	sprite "ship/star barge"
+	thumbnail "thumbnail/star barge"
+	licenses
+		Painter
+	attributes
+		category "Swizzle Displays"
+		"cost" 2000
+		"shields" 0
+		"hull" 50
+		"required crew" 1
+		"bunks" 1
+		"mass" 20
+		"drag" 4
+		"heat dissipation" .17
+		"fuel capacity" 0
+		"cargo space" 50
+		"outfit space" 10
+		"weapon capacity" 10
+		"engine capacity" 10
+		weapon
+			"blast radius" 16
+			"shield damage" 160
+			"hull damage" 80
+			"hit force" 240
+	"display name" "Colors Display "
+	explode "tiny explosion" 10
+	explode "small explosion" 10
+	description "Upon closer inspection, what originally looked like a Star Barge turns out to be an Aluminium replica with just enough space to sit in the stripped cockpit."
+
+ship "Colors Display" "Colors 00"
+	swizzle 0
+	"display name" "Colors Display 00"
+	add description "These colors are used by the Republic Navy, and as such are restricted to those who have  received appropriate permission to fly them."
+
+ship "Colors Display" "Colors 01"
+	swizzle 1
+	"display name" "Colors Display 01"
+	add description "The Alphas have claimed these colors as their own, so it is somewhat of a social taboo to fly these. However, it is still legal."
+
+ship "Colors Display" "Colors 02"
+	swizzle 2
+	"display name" "Colors Display 02"
+	add description "This paint scheme is generally used by the Free Worlds only."
+
+ship "Colors Display" "Colors 03"
+	swizzle 3
+	"display name" "Colors Display 03"
+	add description "This paint scheme is used by the Wanderers, and somehow, the staff seem to know all about them"
+
+ship "Colors Display" "Colors 04"
+	swizzle 4
+	"display name" "Colors Display 04"
+	add description "The staff is also somehow perfectly aware of the Remnant."
+
+ship "Colors Display" "Colors 05"
+	swizzle 5
+	"display name" "Colors Display 05"
+	add description "Ever since the founding of the Republic, peaceful merchants have used these colors to ensure that they are not attacked when crossing between factions' territory."
+
+ship "Colors Display" "Colors 06"
+	swizzle 6
+	"display name" "Colors Display 06"
+	add description "While it is not illegal to wear independent colors, it is not always safe, as it might not ensure that you receive backup from factional ships if attacked."
+
+ship "Colors Display" "Colors 07"
+	swizzle 7
+	"display name" "Colors Display 07"
+
+ship "Colors Display" "Colors 08"
+	swizzle 8
+	"display name" "Colors Display 08"
+
+ship "Colors Display" "Colors 09"
+	swizzle 9
+	"display name" "Colors Display 09"
+
+ship "Colors Display" "Colors 10"
+	swizzle 10
+	"display name" "Colors Display 10"
+
+ship "Colors Display" "Colors 11"
+	swizzle 11
+	"display name" "Colors Display 11"
+
+ship "Colors Display" "Colors 12"
+	swizzle 12
+	"display name" "Colors Display 12"
+
+ship "Colors Display" "Colors 13"
+	swizzle 13
+	"display name" "Colors Display 13"
+
+ship "Colors Display" "Colors 14"
+	swizzle 14
+	"display name" "Colors Display 14"
+
+ship "Colors Display" "Colors 15"
+	swizzle 15
+	"display name" "Colors Display 15"
+
+ship "Colors Display" "Colors 16"
+	swizzle 16
+	"display name" "Colors Display 16"
+
+ship "Colors Display" "Colors 17"
+	swizzle 17
+	"display name" "Colors Display 17"
+
+ship "Colors Display" "Colors 18"
+	swizzle 18
+	"display name" "Colors Display 18"
+
+ship "Colors Display" "Colors 19"
+	swizzle 19
+	"display name" "Colors Display 19"
+
+ship "Colors Display" "Colors 20"
+	swizzle 20
+	"display name" "Colors Display 20"
+
+ship "Colors Display" "Colors 21"
+	swizzle 21
+	"display name" "Colors Display 21"
+
+ship "Colors Display" "Colors 22"
+	swizzle 22
+	"display name" "Colors Display 22"
+
+ship "Colors Display" "Colors 23"
+	swizzle 23
+	"display name" "Colors Display 23"
+
+ship "Colors Display" "Colors 24"
+	swizzle 24
+	"display name" "Colors Display 24"
+
+ship "Colors Display" "Colors 25"
+	swizzle 25
+	"display name" "Colors Display 25"
+
+ship "Colors Display" "Colors 26"
+	swizzle 26
+	"display name" "Colors Display 26"
+
+ship "Colors Display" "Colors 27"
+	swizzle 27
+	"display name" "Colors Display 27"
+	add description "To achieve a futuristic, cloaked paint scheme, the technicians apply a thin red powder coating to all surfaces, which you are somehow still able to see through when sitting in the ckockpit."
+
+ship "Colors Display" "Colors 28"
+	swizzle 28
+	"display name" "Colors Display 28"
+	add description "It is difficult to say why the technicians at HyperHue would do such a thing to your ship."
+shipyard "Colors Showroom"
+	"Colors 00"
+	"Colors 01"
+	"Colors 02"
+	"Colors 03"
+	"Colors 04"
+	"Colors 05"
+	"Colors 06"
+	"Colors 07"
+	"Colors 08"
+	"Colors 09"
+	"Colors 10"
+	"Colors 11"
+	"Colors 12"
+	"Colors 13"
+	"Colors 14"
+	"Colors 15"
+	"Colors 16"
+	"Colors 17"
+	"Colors 18"
+	"Colors 19"
+	"Colors 20"
+	"Colors 21"
+	"Colors 22"
+	"Colors 23"
+	"Colors 24"
+	"Colors 25"
+	"Colors 26"
+	"Colors 27"
+	"Colors 28"
+
+
+event "mars paint"
+	planet Mars
+		add spaceport `	Ever since HyperHue Studios purchased most of the spaceport and set up their business, the interest of the spaceport has increased. There is even an added showroom displaying clean rows of CT-50s.`
+		add description `	To use the services provided by HyperHue Studios, visit the Shipyard Showroom to find a color you like, and purchase the corresponding paint scheme on the Job Board.`
+		add shipyard "Colors Showroom"	
