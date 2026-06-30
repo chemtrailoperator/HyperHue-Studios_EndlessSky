@@ -1,0 +1,5 @@
+#Basically just a to do list
+#Remove all other Mars jobs
+#Maybe put in license requirements and a cool dynamic for what swizzle you have?
+#Other locations other than mars
+

@@ -1,0 +1,235 @@
+# Copyright (c) 2025 Joshua Breidenthal
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+# These Swizzles aren't particularly useful, but they are included anyway. Later versions may include them.
+
+swizzle "30"
+	red   0 0 0 1
+	green 1 0 0 0
+	blue  1 0 0 0
+	alpha 0 0 0 1
+
+
+swizzle "31"
+	red   0 0 0 1
+	green 0 1 0 0
+	blue  1 0 0 0
+	alpha 0 0 0 1
+
+swizzle "32"
+	red   0 0 0 1
+	green 0 0 1 0
+	blue  1 0 0 0
+	alpha 0 0 0 1
+
+swizzle "33"
+	red   1 0 0 0
+	green 0 0 0 1
+	blue  1 0 0 0
+	alpha 0 0 0 1
+
+swizzle "35"
+	red   0 1 0 0
+	green 0 0 0 1
+	blue  1 0 0 0
+	alpha 0 0 0 1
+
+swizzle "36"
+	red   0 0 1 0
+	green 0 0 0 1
+	blue  1 0 0 0
+	alpha 0 0 0 1
+
+swizzle "37"
+	red   0 0 0 1
+	green 0 0 0 1
+	blue  1 0 0 0
+	alpha 0 0 0 1
+
+
+swizzle "38"
+	red   0 0 0 1
+	green 1 0 0 0
+	blue  0 1 0 0
+	alpha 0 0 0 1
+
+swizzle "39"
+	red   0 0 0 1
+	green 0 1 0 0
+	blue  0 1 0 0
+	alpha 0 0 0 1
+
+swizzle "40"
+	red   0 0 0 1
+	green 0 0 1 0
+	blue  0 1 0 0
+	alpha 0 0 0 1
+
+swizzle "41"
+	red   1 0 0 0
+	green 0 0 0 1
+	blue  0 1 0 0
+	alpha 0 0 0 1
+
+swizzle "42"
+	red   0 1 0 0
+	green 0 0 0 1
+	blue  0 1 0 0
+	alpha 0 0 0 1
+
+swizzle "43"
+	red   0 0 1 0
+	green 0 0 0 1
+	blue  0 1 0 0
+	alpha 0 0 0 1
+
+swizzle "44"
+	red   0 0 0 1
+	green 0 0 0 1
+	blue  0 1 0 0
+	alpha 0 0 0 1
+
+swizzle "45"
+	red   0 0 0 1
+	green 1 0 0 0
+	blue  0 0 1 0
+	alpha 0 0 0 1
+
+swizzle "46"
+	red   0 0 0 1
+	green 0 1 0 0
+	blue  0 0 1 0
+	alpha 0 0 0 1
+
+swizzle "47"
+	red   0 0 0 1
+	green 0 0 1 0
+	blue  0 0 1 0
+	alpha 0 0 0 1
+
+swizzle "48"
+	red   1 0 0 0
+	green 0 0 0 1
+	blue  0 0 1 0
+	alpha 0 0 0 1
+
+swizzle "49"
+	red   0 1 0 0
+	green 0 0 0 1
+	blue  0 0 1 0
+	alpha 0 0 0 1
+
+swizzle "50"
+	red   0 0 1 0
+	green 0 0 0 1
+	blue  0 0 1 0
+	alpha 0 0 0 1
+
+swizzle "51"
+	red   0 0 0 1
+	green 0 0 0 1
+	blue  0 0 1 0
+	alpha 0 0 0 1
+
+swizzle "52"
+	red   1 0 0 0
+	green 1 0 0 0
+	blue  0 0 0 1
+	alpha 0 0 0 1
+
+swizzle "53"
+	red   0 1 0 0
+	green 1 0 0 0
+	blue  0 0 0 1
+	alpha 0 0 0 1
+
+swizzle "54"
+	red   0 0 1 0
+	green 1 0 0 0
+	blue  0 0 0 1
+	alpha 0 0 0 1
+
+swizzle "55"
+	red   0 0 0 1
+	green 1 0 0 0
+	blue  0 0 0 1
+	alpha 0 0 0 1
+
+swizzle "56"
+	red   1 0 0 0
+	green 0 1 0 0
+	blue  0 0 0 1
+	alpha 0 0 0 1
+
+swizzle "57"
+	red   0 1 0 0
+	green 0 1 0 0
+	blue  0 0 0 1
+	alpha 0 0 0 1
+
+swizzle "58"
+	red   0 0 1 0
+	green 0 1 0 0
+	blue  0 0 0 1
+	alpha 0 0 0 1
+
+swizzle "59"
+	red   0 0 0 1
+	green 0 1 0 0
+	blue  0 0 0 1
+	alpha 0 0 0 1
+
+swizzle "60"
+	red   1 0 0 0
+	green 0 0 1 0
+	blue  0 0 0 1
+	alpha 0 0 0 1
+
+swizzle "61"
+	red   0 1 0 0
+	green 0 0 1 0
+	blue  0 0 0 1
+	alpha 0 0 0 1
+
+swizzle "62"
+	red   0 0 1 0
+	green 0 0 1 0
+	blue  0 0 0 1
+	alpha 0 0 0 1
+
+swizzle "63"
+	red   0 0 0 1
+	green 0 0 1 0
+	blue  0 0 0 1
+	alpha 0 0 0 1
+
+swizzle "64"
+	red   1 0 0 0
+	green 0 0 0 1
+	blue  0 0 0 1
+	alpha 0 0 0 1
+
+swizzle "65"
+	red   0 1 0 0
+	green 0 0 0 1
+	blue  0 0 0 1
+	alpha 0 0 0 1
+
+swizzle "66"
+	red   0 0 1 0
+	green 0 0 0 1
+	blue  0 0 0 1
+	alpha 0 0 0 1
+
+swizzle "29"
+	red   0 0 0 1
+	green 0 0 0 1
+	blue  0 0 0 1
+	alpha 0 0 0 1

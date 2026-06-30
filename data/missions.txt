@@ -8,7 +8,7 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 	
-#based on the plugin by Reed Cera
+#Inspired by "Prism" by Reed Cera
 
 #Intro mission that tells you about the painting station
 
@@ -26,387 +26,434 @@ mission "paint announcement"
 				accept
 	on complete
 		conversation
-			`When you land on Mars, HyperHue Studios is a very prominent building, bright, flashy, and situated directly in the Spaceport. When you get there, you are handed a brochure that gives instructions on how to get your ship repainted: first, select a color you like in the shipyard display, and then purchase the corresponding paint job
-	invisible in the job
-	invisible Board.`
+			`When you land on Mars, HyperHue Studios is a very prominent building, bright, flashy, and situated directly in the Spaceport. When you get there, you are handed a brochure that gives instructions on how to get your ship repainted: first, select a color you like in the shipyard display, and then purchase the corresponding paint job in the job board`
+
+#Phraseology for the paint mission interactions. Note: some of these phrases are not yet used
+phrase "hyperhue two color"
+	word
+		`You order your paint scheme, `
+		`You select the paint scheme you want, `
+		`You tell the attendant how you want your ship painted, `
+		`You order your paint job, making sure it is the right one on the paperwork, `
+	word
+		`and watch the teams swiftly begin taping and painting your ship. `
+		`and head to the spaceport to relax it's done. `
+	word
+		`The entire process takes about `
+	word
+		`one hour ` 4
+		`two hours ` 3
+		`three hours ` 2
+		`four hours `
+	word
+		`to complete, and the end result is very satisfying.`
+
+phrase "hyperhue"
+	word
+		`You watch the teams swiftly begin painting your ship. `
+		`You head to the spaceport to relax until it's done. `
+	word
+		`The entire process takes about `
+	word
+		`one hour ` 8
+		`two hours ` 3
+		`three hours ` 2
+		`four hours `
+	word
+		`to complete, and the end result is very satisfying.`
+
+phrase "hyperhue comprehensive"
+	word
+		`The attendants and crews look at you a little oddly when you order a paint scheme like that, but they get to work.`
+	word
+		`The entire process takes about `
+	word
+		`one hour ` 
+		`two hours ` 2
+		`three hours ` 4
+		`four hours ` 3
+	word
+		`to complete, and the end result is a sight to behold.`
 
 #Everything past here is just missions for each of the 29 available swizzles
+conversation "HS Repaint"
+	`On the painting floor, the HyperHue Studios representative asks that you confirm the paint job one last time.`
+	choice
+		`	"00"`
+			goto 00
+		`	"01"`
+			goto 01
+		`	"02"`
+			goto 02
+		`	"03"`
+			goto 03
+		`	"04"`
+			goto 04
+		`	"05"`
+			goto 05
+		`	"06"`
+			goto 06
+		`	"07"`
+			goto 07
+		`	"08"`
+			goto 08
+		`	"09"`
+			goto 09
+		`	"10"`
+			goto 10
+		`	"11"`
+			goto 11
+		`	"12"`
+			goto 12
+		`	"13"`
+			goto 13
+		`	"14"`
+			goto 14
+		`	"15"`
+			goto 15
+		`	"16"`
+			goto 16
+		`	"17"`
+			goto 17
+		`	"18"`
+			goto 18
+		`	"19"`
+			goto 19
+		`	"20"`
+			goto 20
+		`	"21"`
+			goto 21
+		`	"22"`
+			goto 22
+		`	"23"`
+			goto 23
+		`	"24"`
+			goto 24
+		`	"25"`
+			goto 25
+		`	"26"`
+			goto 26
+		`	"27"`
+			goto 27
+		`	"28"`
+			goto 28
+		`	"29"`
+			goto 29
+		`	"Nevermind"`
+			goto Nevermind
+	label 00
+	action
+		event "color0"
+	`	`
+		goto end
+	label 01
+	action
+		event "color1"
 	
-mission "Change paint 00"
-	name "Repaint 00 (Republic/Navy)"
-	description "Change paint to swizzle 0 (Orange and Yellow) of the Republic Navy. This is technically the default."
-	source "Mars"
+	`	`
+		goto end
+	label 02
+	action
+		event "color2"
+
+	`	`
+		goto end
+	label 03
+	action
+		event "color3"
+		
+	`	`
+		goto end
+	label 04
+	action
+		event "color4"
+		
+	`	`
+		goto end
+	label 05
+	action
+		event "color5"
+		
+	`	`
+		goto end
+	label 06
+	action
+		event "color6"
+		
+	`	`
+		goto end
+	label 07
+	action
+		event "color7"
+		
+	`	`
+		goto end
+	label 08
+	action
+		event "color8"
+		
+	`	`
+		goto end
+	label 09
+	action
+		event "color9"
+		
+	`	`
+		goto end
+	label 10
+	action
+		event "color10"
+		
+	`	`
+		goto end
+	label 11
+	action
+		event "color11"
+		
+	`	`
+		goto end
+	label 12
+	action
+		event "color12"
+		
+	`	`
+		goto end
+	label 13
+	action
+		event "color13"
+		
+	`	`
+		goto end
+	label 14
+	action
+		event "color14"
+		
+	`	`
+		goto end
+	label 15
+	action
+		event "color15"
+		
+	`	`
+		goto end
+	label 16
+	action
+		event "color16"
+		
+	`	`
+		goto end
+	label 17
+	action
+		event "color17"
+		
+	`	`
+		goto end
+	label 18
+	action
+		event "color18"
+		
+	`	`
+		goto end
+	label 19
+	action
+		event "color19"
+		
+	`	`
+		goto end
+	label 20
+	action
+		event "color20"
+		
+	`	`
+		goto end
+	label 21
+	action
+		event "color21"
+		
+	`	`
+		goto end
+	label 22
+	action
+		event "color22"
+		
+	`	`
+		goto end
+	label 23
+	action
+		event "color23"
+		
+	`	`
+		goto end
+	label 24
+	action
+		event "color24"
+		
+	`	`
+		goto end
+	label 25
+	action
+		event "color25"
+		
+	`	`
+		goto end
+	label 26
+	action
+		event "color26"
+		
+	`	`
+		goto end
+	label 27
+	action
+		event "color27"
+		
+	`	`
+		goto end
+	label 28
+	action
+		event "color28"
+		
+	`	`
+		goto end
+	label 29
+	action
+		event "color29"
+		
+	`	`
+		goto end
+	label end
+	`	The whole process takes a few hours to complete, in which you relax in the opulent waiting area. When completed, the end result is very satisfying.`
+		goto endofconvo
+	label Nevermind
+	`	You cancel your paint order and return to the job board.`
+	label endofconvo
+
+mission "HS Change Paint"
 	job
 	repeat
+	name "Repaint Your Ship!"
+	description "This glaring add in the Job Board advertises the HyperHue Studios Painting Services. Be sure to visit the showroom to determine which swizzle you want before purchasing one."
+	source "Mars"
 	on accept
-		event "color0"
+		conversation "HS Repaint"
+		fail
+	
 		
 event "color0"
 	government "Escort"
 		swizzle 0
 
-mission "Change paint 01"
-	name "Repaint 01 (Alpha/Dissonance)"
-	description "Change paint to swizzle 1 (Red and Pink) of the Alphas and the Avgi Dissonance."
-	source "Mars"
-	job
-	repeat
-	on accept
-		event "color1"
-		
 event "color1"
 	government "Escort"
 		swizzle 1
 
-mission "Change paint 02"
-	name "Repaint 02 (Free Worlds/Korath/Lunarium/Parrot)"
-	description "Change paint to swizzle 2 (Green and Yellow) of the Free Worlds, Cap'n Pester, Lunarium, and the Korath."
-	source "Mars"
-	job
-	repeat
-	on accept
-		event "color2"
-		
 event "color2"
 	government "Escort"
 		swizzle 2
 
-mission "Change paint 03"
-	name "Repaint 03 (Wanderer/Bunrodea/Successor)"
-	description "Change paint to swizzle 3 (Green and Teal) of the Wanderers, Bunrodea, and Houses Aqrabe and Kaatrij. Wanderer ships do not technically use this swizzle but the colors match."
-	source "Mars"
-	job
-	repeat
-	on accept
-		event "color3"
-		
 event "color3"
 	government "Escort"
 		swizzle 3
-
-
-mission "Change paint 04"
-	name "Repaint 04 (Remnant/Unfettered/Kor Efret/Syndicate)"
-	description "Change paint to swizzle 4 (Blue and Purple) of the Remnant, Syndicate, Kor Efret, and Unfettered Hai."
-	source "Mars"
-	job
-	repeat
-	on accept
-		event "color4"
 
 event "color4"
 	government "Escort"
 		swizzle 4
 
-mission "Change paint 05"
-	name "Repaint 05 (Merchant/Coalition/Successors/Mereti)"
-	description "Change paint to swizzle 5 (Blue and Teal) of Merchants, the Coalition, Kor Mereti, and the Houses Chydiyi, Sioeora and Myurej."
-	source "Mars"
-	job
-	repeat
-	on accept
-		event "color5"
-		
 event "color5"
 	government "Escort"
 		swizzle 5
 
-mission "Change paint 06"
-	name "Repaint 06 (Independent)"
-	description "Change paint to swizzle 6 (Dark and Light Red) of independent ships and pirates."
-	source "Mars"
-	job
-	repeat
-	on accept
-		event "color6"
-		
 event "color6"
 	government "Escort"
 		swizzle 6
 
-mission "Change paint 07"
-	name "Repaint 07"
-	description "Change paint to swizzle 7 (Light Red Only)."
-	source "Mars"
-	job
-	repeat
-	on accept
-		event "color7"
-		
 event "color7"
 	government "Escort"
 		swizzle 7
 
-mission "Change paint 08"
-	name "Repaint 08"
-	description "Change paint to swizzle 8 (Light Red and White)."
-	source "Mars"
-	job
-	repeat
-	on accept
-		event "color8"
-		
 event "color8"
 	government "Escort"
 		swizzle 8
 
-mission "Change paint 09"
-	name "Repaint 09"
-	description "Change paint to swizzle 9 (Black Only)."
-	source "Mars"
-	job
-	repeat
-	on accept
-		event "color9"
-		
 event "color9"
 	government "Escort"
 		swizzle 9
 
-mission "Change paint 10"
-	name "Repaint 10 (Derelict)"
-	description "Change paint to swizzle 10 (White and Grey) of derelict ships."
-	source "Mars"
-	job
-	repeat
-	on accept
-		event "color10"
-		
 event "color10"
 	government "Escort"
 		swizzle 10
 
-mission "Change paint 11"
-	name "Repaint 11 (Bunrodea)"
-	description "Change paint to swizzle 11 (White Only) of the Bunrodea Erabu and Guard."
-	source "Mars"
-	job
-	repeat
-	on accept
-		event "color11"
-		
 event "color11"
 	government "Escort"
 		swizzle 11
 
-mission "Change paint 12"
-	name "Repaint 12 (Twilight Guard)"
-	description "Change paint to swizzle 12 (Light and Dark Blue) used by the Avgi Twilight Guard."
-	source "Mars"
-	job
-	repeat
-	on accept
-		event "color12"
-		
 event "color12"
 	government "Escort"
 		swizzle 12
 
-mission "Change paint 13"
-	name "Repaint 13"
-	description "Change paint to swizzle 13 (Light Blue Only)."
-	source "Mars"
-	job
-	repeat
-	on accept
-		event "color13"
-		
 event "color13"
 	government "Escort"
 		swizzle 13
 
-mission "Change paint 14"
-	name "Repaint 14"
-	description "Change paint to swizzle 14 (White and Light Blue)."
-	source "Mars"
-	job
-	repeat
-	on accept
-		event "color14"
-		
 event "color14"
 	government "Escort"
 		swizzle 14
 
-mission "Change paint 15"
-	name "Repaint 15 (Avgi)"
-	description "Change paint to swizzle 15 (Teal and Blue-Green) used by the Avgi."
-	source "Mars"
-	job
-	repeat
-	on accept
-		event "color15"
-		
 event "color15"
 	government "Escort"
 		swizzle 15
 
-mission "Change paint 16"
-	name "Repaint 16"
-	description "Change paint to swizzle 16 (Teal Only)."
-	source "Mars"
-	job
-	repeat
-	on accept
-		event "color16"
-		
 event "color16"
 	government "Escort"
 		swizzle 16
 
-mission "Change paint 17"
-	name "Repaint 17"
-	description "Change paint to swizzle 17 (White and Teal)."
-	source "Mars"
-	job
-	repeat
-	on accept
-		event "color17"
-		
 event "color17"
 	government "Escort"
 		swizzle 17
 
-mission "Change paint 18"
-	name "Repaint 18 (Bunrodea Megasa/Gegno Scin)"
-	description "Change paint to swizzle 18 (Light and Dark Green) of the Bunrodea Megasa and Gegno Scin."
-	source "Mars"
-	job
-	repeat
-	on accept
-		event "color18"
-		
 event "color18"
 	government "Escort"
 		swizzle 18
 
-mission "Change paint 19"
-	name "Repaint 19"
-	description "Change paint to swizzle 19 (Light Green Only)."
-	source "Mars"
-	job
-	repeat
-	on accept
-		event "color19"
-		
 event "color19"
 	government "Escort"
 		swizzle 19
 
-mission "Change paint 20"
-	name "Repaint 20"
-	description "Change paint to swizzle 20 (Light Green and White)."
-	source "Mars"
-	job
-	repeat
-	on accept
-		event "color20"
-		
 event "color20"
 	government "Escort"
 		swizzle 20
 
-mission "Change paint 21"
-	name "Repaint 21"
-	description "Change paint to swizzle 21 (Yellow and Yellow-Black)."
-	source "Mars"
-	job
-	repeat
-	on accept
-		event "color21"
-		
 event "color21"
 	government "Escort"
 		swizzle 21
 
-mission "Change paint 22"
-	name "Repaint 22 (Avgi Wanderer/Heliarch)"
-	description "Change paint to swizzle 22 (Yellow Only) of the Avgi Wandering Fleets and the Heliarchs."
-	source "Mars"
-	job
-	repeat
-	on accept
-		event "color22"
-		
 event "color22"
 	government "Escort"
 		swizzle 22
 
-mission "Change paint 23"
-	name "Repaint 23"
-	description "Change paint to swizzle 23 (White and Yellow)."
-	source "Mars"
-	job
-	repeat
-	on accept
-		event "color23"
-		
 event "color23"
 	government "Escort"
 		swizzle 23
 
-
-mission "Change paint 24"
-	name "Repaint 24"
-	description "Change paint to swizzle 24 (Purple and Pink)."
-	source "Mars"
-	job
-	repeat
-	on accept
-		event "color24"
-		
 event "color24"
 	government "Escort"
 		swizzle 24
 
-mission "Change paint 25"
-	name "Repaint 25"
-	description "Change paint to swizzle 25 (Pink Only)."
-	source "Mars"
-	job
-	repeat
-	on accept
-		event "color25"
-		
 event "color25"
 	government "Escort"
 		swizzle 25
 
-mission "Change paint 26"
-	name "Repaint 26"
-	description "Change paint to swizzle 26 (Pink and White)."
-	source "Mars"
-	job
-	repeat
-	on accept
-		event "color26"
-		
 event "color26"
 	government "Escort"
 		swizzle 26
 
-mission "Change paint 27"
-	name "Repaint 27"
-	description "Change paint to swizzle 27 (Cloak) This swizzle shades your entire ship red similar to the cloaking effect. However, it does not make your ship translucent."
-	source "Mars"
-	job
-	repeat
-	on accept
-		event "color27"
-		
 event "color27"
 	government "Escort"
 		swizzle 27
 
-mission "Change paint 28"
-	name "Repaint 28 (Blackout)"
-	description "Change paint to swizzle 28 (All Black) This swizzle blacks out your entire ship (but not turrets)."
-	source "Mars"
-	job
-	repeat
-	on accept
-		event "color28"
-		
 event "color28"
 	government "Escort"
 		swizzle 28
+
+event "color29"
+	government "Escort"
+		swizzle 29
