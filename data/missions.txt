@@ -10,12 +10,19 @@
 	
 #Inspired by "Prism" by Reed Cera
 
+color "hyper red" 1 0 0
+color "hyper blue" 0 1 0
+color "hyper green" 0 0 1
+
 #Intro mission that tells you about the painting station
 
 mission "paint announcement"
 	landing
 	destination Mars
 	description "Visit the newly built HyperHue Studios on Mars"
+	color unavailable "hyper red"
+	color unselected "hyper green"
+	color selected "hyper blue"
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Independent"
 		not planet Mars
@@ -330,7 +337,10 @@ conversation "HS Repaint"
 mission "HS Change Paint"
 	job
 	repeat
-	name "Repaint Your Ship!"
+	name "(HyperHue Studios) Repaint Your Ship!"
+	color unavailable "hyper red"
+	color unselected "hyper blue"
+	color selected "hyper green"
 	description "This glaring add in the Job Board advertises the HyperHue Studios Painting Services. Be sure to visit the showroom to determine which swizzle you want before purchasing one."
 	source "Mars"
 	on accept
