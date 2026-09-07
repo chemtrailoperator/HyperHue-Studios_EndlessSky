@@ -86,65 +86,65 @@ phrase "hyperhue comprehensive"
 conversation "HS Repaint"
 	`On the painting floor, the HyperHue Studios representative asks that you confirm the paint job one last time.`
 	choice
-		`	"00"`
+		`	"Orange and Red (Republic)"`
 			goto 00
-		`	"01"`
+		`	"Pink and Red"`
 			goto 01
-		`	"02"`
+		`	"Light Green and Green (Free Worlds)"`
 			goto 02
-		`	"03"`
+		`	"Teal and Green"`
 			goto 03
-		`	"04"`
+		`	"Purple and Blue (Syndicate)"`
 			goto 04
-		`	"05"`
+		`	"Light Blue and Blue (Merchant)"`
 			goto 05
-		`	"06"`
+		`	"Red and Dark Red (Pirate)"`
 			goto 06
-		`	"07"`
+		`	"Red"`
 			goto 07
-		`	"08"`
+		`	"Light Red and Red"`
 			goto 08
-		`	"09"`
+		`	"Black"`
 			goto 09
-		`	"10"`
+		`	"Light Grey and Grey (Derelict)"`
 			goto 10
-		`	"11"`
+		`	"White"`
 			goto 11
-		`	"12"`
+		`	"Blue and Dark Blue"`
 			goto 12
-		`	"13"`
+		`	"Blue"`
 			goto 13
-		`	"14"`
+		`	"Light Blue and Blue"`
 			goto 14
-		`	"15"`
+		`	"Teal and Dark Green"`
 			goto 15
-		`	"16"`
+		`	"Teal"`
 			goto 16
-		`	"17"`
+		`	"Light Teal and Teal"`
 			goto 17
-		`	"18"`
+		`	"Green and Dark Green"`
 			goto 18
-		`	"19"`
+		`	"Green"`
 			goto 19
-		`	"20"`
+		`	"Light Green and Green"`
 			goto 20
-		`	"21"`
+		`	"Yellow and Dark Yellow"`
 			goto 21
-		`	"22"`
+		`	"Yellow"`
 			goto 22
-		`	"23"`
+		`	"Light Yellow and Yellow"`
 			goto 23
-		`	"24"`
+		`	"Pink and Dark Pink"`
 			goto 24
-		`	"25"`
+		`	"Pink"`
 			goto 25
-		`	"26"`
+		`	"Light Pink and Pink"`
 			goto 26
-		`	"27"`
+		`	"Cloaked"`
 			goto 27
-		`	"28"`
+		`	"All Black"`
 			goto 28
-		`	"29"`
+		`	"All White"`
 			goto 29
 		`	"Nevermind"`
 			goto Nevermind

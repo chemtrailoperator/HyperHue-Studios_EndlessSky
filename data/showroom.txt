@@ -19,7 +19,7 @@ outfit "Painter's License"
 
 	
 category "ship"
-	"Swizzle Displays"
+	"Paint Showroom"
 
 ship "Colors Display"
 	sprite "ship/star barge"
@@ -27,7 +27,7 @@ ship "Colors Display"
 	licenses
 		"Painter's License"
 	attributes
-		category "Swizzle Displays"
+		category "Paint Showroom"
 		"cost" 2000
 		"shields" 0
 		"hull" 50
@@ -53,151 +53,151 @@ ship "Colors Display"
 
 ship "Colors Display" "Colors 00"
 	swizzle 0
-	"display name" "Colors Display 00"
+	"display name" "Orange and Red (Republic)"
 	description "Upon closer inspection, what originally looked like a Star Barge turns out to be an Aluminium replica with just enough space to sit in the stripped cockpit."
-	description "	These colors are used by the Republic, and it is technically no swizzle."
+	description "	Stripping all the paint off your ship leaves you with the colors it comes from the factory in, which also happen to be the same as the Republic Navy"
 
 ship "Colors Display" "Colors 01"
 	swizzle 1
-	"display name" "Colors Display 01"
+	"display name" "Pink and Red (Alpha)"
 	description "Upon closer inspection, what originally looked like a Star Barge turns out to be an Aluminium replica with just enough space to sit in the stripped cockpit."
 	description "	These colors are used by the Alphas and the Avgi Dissonance."
 
 ship "Colors Display" "Colors 02"
 	swizzle 2
-	"display name" "Colors Display 02"
+	"display name" "Light Green and Green (Free Worlds)"
 	description "Upon closer inspection, what originally looked like a Star Barge turns out to be an Aluminium replica with just enough space to sit in the stripped cockpit."
-	description "	These colors are used by the Free Worlds, Cap'n Pester, the Lunarium, and the Korath."
+	description "	This paint job is used by the Free Worlds and the Korath."
 
 ship "Colors Display" "Colors 03"
 	swizzle 3
-	"display name" "Colors Display 03"
+	"display name" "Teal and Green"
 	description "Upon closer inspection, what originally looked like a Star Barge turns out to be an Aluminium replica with just enough space to sit in the stripped cockpit."
-	description "	These colors are used by the Wanderers, Bunrodea, and Houses Aqrabe and Kaatrij. Wanderer ships do not technically use this swizzle but the colors are the same."
+	description "	These colors are used by the Wanderers, Bunrodea, and Houses Aqrabe and Kaatrij."
 
 ship "Colors Display" "Colors 04"
 	swizzle 4
-	"display name" "Colors Display 04"
+	"display name" "Purple and Blue (Syndicate)"
 	description "Upon closer inspection, what originally looked like a Star Barge turns out to be an Aluminium replica with just enough space to sit in the stripped cockpit."
 	description "	These colors are used by the Remnant, Syndicate, Kor Efret, and the Unfettered Hai."
 
 ship "Colors Display" "Colors 05"
 	swizzle 5
-	"display name" "Colors Display 05"
+	"display name" "Light Blue and Blue (Merchant)"
 	description "Upon closer inspection, what originally looked like a Star Barge turns out to be an Aluminium replica with just enough space to sit in the stripped cockpit."
 	description "	These colors are used by Merchants, the Coalition, Kor Mereti, and Houses Chydiyi, Sioeora, and Myurej."
 
 ship "Colors Display" "Colors 06"
 	swizzle 6
-	"display name" "Colors Display 06"
+	"display name" "Red and Dark Red (Pirate)"
 	description "Upon closer inspection, what originally looked like a Star Barge turns out to be an Aluminium replica with just enough space to sit in the stripped cockpit."
 	description "	These colors are used by independent ships and pirates."
 
 ship "Colors Display" "Colors 07"
 	swizzle 7
-	"display name" "Colors Display 07"
+	"display name" "Red"
 
 ship "Colors Display" "Colors 08"
 	swizzle 8
-	"display name" "Colors Display 08"
+	"display name" "Light Red and Red"
 
 ship "Colors Display" "Colors 09"
 	swizzle 9
-	"display name" "Colors Display 09"
+	"display name" "Black"
 
 ship "Colors Display" "Colors 10"
 	swizzle 10
-	"display name" "Colors Display 10"
+	"display name" "Light Grey and Grey"
 	description "Upon closer inspection, what originally looked like a Star Barge turns out to be an Aluminium replica with just enough space to sit in the stripped cockpit."
 	description "	These colors are visible on derelict ships."
 
 ship "Colors Display" "Colors 11"
 	swizzle 11
-	"display name" "Colors Display 11"
+	"display name" "White"
 	description "Upon closer inspection, what originally looked like a Star Barge turns out to be an Aluminium replica with just enough space to sit in the stripped cockpit."
 	description "	These colors are used by the Bunrodea Erabu and Guard."
 
 ship "Colors Display" "Colors 12"
 	swizzle 12
-	"display name" "Colors Display 12"
+	"display name" "Blue and Dark Blue"
 	description "Upon closer inspection, what originally looked like a Star Barge turns out to be an Aluminium replica with just enough space to sit in the stripped cockpit."
 	description "	These colors are used by the Avgi Twilight Guard."
 
 ship "Colors Display" "Colors 13"
 	swizzle 13
-	"display name" "Colors Display 13"
+	"display name" "Blue"
 
 ship "Colors Display" "Colors 14"
 	swizzle 14
-	"display name" "Colors Display 14"
+	"display name" "Light Blue and Blue"
 
 ship "Colors Display" "Colors 15"
 	swizzle 15
-	"display name" "Colors Display 15"
+	"display name" "Teal and Dark Green"
 	description "Upon closer inspection, what originally looked like a Star Barge turns out to be an Aluminium replica with just enough space to sit in the stripped cockpit."
 	description "	These colors are used by the Avgi."
 
 ship "Colors Display" "Colors 16"
 	swizzle 16
-	"display name" "Colors Display 16"
+	"display name" "Teal"
 
 ship "Colors Display" "Colors 17"
 	swizzle 17
-	"display name" "Colors Display 17"
+	"display name" "Light Teal and Teal"
 
 ship "Colors Display" "Colors 18"
 	swizzle 18
-	"display name" "Colors Display 18"
+	"display name" "Green and Dark Green"
 	description "Upon closer inspection, what originally looked like a Star Barge turns out to be an Aluminium replica with just enough space to sit in the stripped cockpit."
 	description "	These colors are used by the Bunrodea Megasa and Gegno Scin."
 
 ship "Colors Display" "Colors 19"
 	swizzle 19
-	"display name" "Colors Display 19"
+	"display name" "Green"
 
 ship "Colors Display" "Colors 20"
 	swizzle 20
-	"display name" "Colors Display 20"
+	"display name" "Light Green and Green"
 
 ship "Colors Display" "Colors 21"
 	swizzle 21
-	"display name" "Colors Display 21"
+	"display name" "Yellow and Dark Yellow"
 
 ship "Colors Display" "Colors 22"
 	swizzle 22
-	"display name" "Colors Display 22"
+	"display name" "Yellow"
 	description "Upon closer inspection, what originally looked like a Star Barge turns out to be an Aluminium replica with just enough space to sit in the stripped cockpit."
 	description "	These colors are used by the Avgi Wandering Fleets and the Heliarchs."
 
 ship "Colors Display" "Colors 23"
 	swizzle 23
-	"display name" "Colors Display 23"
+	"display name" "Light Yellow and Yellow"
 
 ship "Colors Display" "Colors 24"
 	swizzle 24
-	"display name" "Colors Display 24"
+	"display name" "Pink and Dark Pink"
 
 ship "Colors Display" "Colors 25"
 	swizzle 25
-	"display name" "Colors Display 25"
+	"display name" "Pink"
 
 ship "Colors Display" "Colors 26"
 	swizzle 26
-	"display name" "Colors Display 26"
+	"display name" "Light Pink and Pink"
 
 ship "Colors Display" "Colors 27"
 	swizzle 27
-	"display name" "Colors Display 27"
+	"display name" "Cloaked"
 
 ship "Colors Display" "Colors 28"
 	swizzle 28
-	"display name" "Colors Display 28"
+	"display name" "Total Black"
 	description "Upon closer inspection, what originally looked like a Star Barge turns out to be an Aluminium replica with just enough space to sit in the stripped cockpit."
 	description "	Note: This swizzle des not cover turrets or other hardpoint items."
 
 ship "Colors Display" "Colors 29"
 	swizzle 29
-	"display name" "Colors Display 29"
+	"display name" "Total White"
 
 shipyard "Colors Showroom"
 	"Colors 00"
@@ -236,3 +236,5 @@ event "mars paint"
 		add spaceport `	Ever since HyperHue Studios purchased most of the spaceport and set up their business, the interest of the spaceport has increased. There is even an added showroom displaying clean rows of CT-50s.`
 		add description `	To use the services provided by HyperHue Studios, visit the Shipyard Showroom to find a color you like, and purchase the corresponding paint scheme on the Job Board.`
 		add shipyard "Colors Showroom"	
+		
+		
