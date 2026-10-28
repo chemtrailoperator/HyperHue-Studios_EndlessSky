@@ -1,3 +1,7 @@
+# HyperHue-Studios
+
+![Downloads](https://img.shields.io/github/downloads/chemtrailoperator/HyperHue-Studios_EndlessSky/total)
+
 This plugin is currently on a back burner; no development currently in progress.
 
 Essentially, this plugin gives the player access to all 29 vanilla swizzles in-game. Future versions may include custom swizzles like different cloaking patterns.
